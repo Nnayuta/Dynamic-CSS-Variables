@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(35deg, rgb(48, 48, 48), rgb(75, 0, 161));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.308);
+}
+
+form label {
+    font-size: 15px;
+}
+
+.pwrdiv {
+    margin-top: 10px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .btn-form {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+    width: 40%;
+    border: none;
+    cursor: pointer;
+}
+
+form .btn-form:hover {
+    border: 1px black solid;
+}
+
+.err {
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    display: none;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.inputError {
+    background-color: lightyellow;
+    border: 2px solid red;
+}
+
+.inputLoginErr {
+    background-color: rgb(255, 111, 111);
+    border: 2px solid red;
+    color: white;
+}
+
+#login {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid black;
+}
+
+#pwr {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+
+main{
+    display: none;
+}
+
+main h1{
+    color: white;
+}
