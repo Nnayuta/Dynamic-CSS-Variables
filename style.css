@@ -66,6 +66,21 @@ form .btn-form:hover {
     border-radius: 8px;
 }
 
+#login {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+#pwr {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 8px;
+}
+
+
 .inputError {
     background-color: lightyellow;
     border: 2px solid red;
@@ -75,23 +90,6 @@ form .btn-form:hover {
     background-color: rgb(255, 111, 111);
     border: 2px solid red;
     color: white;
-}
-
-#login {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px;
-    border-radius: 8px;
-    border: none;
-    border: 1px solid black;
-}
-
-#pwr {
-    text-align: center;
-    width: 100%;
-    padding: 10px 0px;
-    border-radius: 8px;
-    border: 1px solid black;
 }
 
 
