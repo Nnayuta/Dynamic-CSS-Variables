@@ -1,4 +1,5 @@
 Project on CodePen: [Dynamic CSS Variables](https://codepen.io/nnayuta/pen/oNwVXoG)
+
 Procjet on GithubPages [Dynamic CSS Variables](https://nnayuta.github.io/Dynamic-CSS-Variables/)
 
 # Dynamic CSS Variables
